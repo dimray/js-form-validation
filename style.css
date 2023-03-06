@@ -1,0 +1,32 @@
+html {
+  display: flex;
+  justify-content: center;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+form {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+.hidden {
+  display: none;
+}
